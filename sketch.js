@@ -3,7 +3,7 @@ let cols; let rows; let size = 25; let offset = 5;
 let blocks = [];
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
   angleMode(DEGREES);
   cols = width / size;
